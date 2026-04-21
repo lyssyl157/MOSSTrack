@@ -37,7 +37,7 @@ conda activate MoSSTrack
 
 Install the required packages:
 ```
-bash instal.sh
+bash install.sh
 ```
 
 ## 📂 Data Preparation

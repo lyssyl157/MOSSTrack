@@ -1,4 +1,4 @@
-<h1 align="center">🎯 MOSSTrack: Modality-Specific Spatio-Temporal Context Learning for RGB-T </h1>
+<h1 align="center">🎯 MOSSTrack: Modality-Specific Spatio-Temporal Context Learning for RGB-T Tracking </h1>
 
 <div align="center">
   <a href="https://github.com/lyssyl157/MoSSTrack"><strong>MOSSTrack: Modality-Specific Spatio-Temporal Context Learning for RGB-T Tracking</strong></a><br>

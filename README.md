@@ -20,7 +20,7 @@ This repository contains the official implementation of <strong>MOSSTrack</stron
 
 ## ✨ Key Features & Contributions
 <p align="center">
-    <img src="aeest/framework.png" alt="MOSSTrack Framework" style="width:60%;">
+    <img src="aeest/framework.png" alt="MOSSTrack Framework" style="width:100%;">
 </p>
 
 

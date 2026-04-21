@@ -23,11 +23,10 @@ def parameters(yaml_name: str, run_id=None):
 
     # Network checkpoint path
     if run_id is None:
-        # params.checkpoint = os.path.join(save_dir, "checkpoints/train/mosstrack/%s/DUTrack_ep%04d.pth.tar" %
-        #                                 (yaml_name, cfg.TEST.EPOCH))
-        params.checkpoint = "/vcl/2025liuyisong/DUTrack1/output/checkpoints/train/dutrack/dutrack_256_full_18(best)/DUTrack_ep0018.pth.tar"
+
+        params.checkpoint = "/vcl/2025liuyisong/MoSSTrack/output/checkpoints/train/mosstrack/mosstrack/mosstrack_256.pth.tar"
     else:
-        params.checkpoint = os.path.join(save_dir, "checkpoints/train/mosstrack/%s/DUTrack_ep%04d.pth.tar" %
+        params.checkpoint = os.path.join(save_dir, "checkpoints/train/mosstrack/%s/mosstrack_ep%04d.pth.tar" %
                                         (yaml_name, run_id))
     
     # whether to save boxes from all queries

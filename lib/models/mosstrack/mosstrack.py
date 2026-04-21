@@ -129,7 +129,6 @@ def build_dutrack(cfg, training=True):
 
     if cfg.MODEL.PRETRAIN_FILE and ('OSTrack' not in cfg.MODEL.PRETRAIN_FILE) and training:
         pretrained = os.path.join(pretrained_path, cfg.MODEL.PRETRAIN_FILE)
-        # pretrained='/vcl/2025liuyisong/DUTrack1/output/checkpoints/train/mosstrack/best/DUTrack_ep0014(best).pth.tar'
     else:
         pretrained = ''
 

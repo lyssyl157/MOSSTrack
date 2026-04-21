@@ -53,7 +53,7 @@ MODEL:
   HEAD:
     NUM_CHANNELS: 256
     TYPE: CENTER
-  PRETRAIN_FILE: DUTrack_ep0045.pth.tar
+  PRETRAIN_FILE: pretrained.pth.tar
   RETURN_INTER: false
 TRAIN:
   AMP: false
